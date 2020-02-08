@@ -24,7 +24,7 @@ end
 
 def reduce_to_total(source_array, starting_point=0)
 counter = 0 
-final_number = 0
+final_number = starting_point
 
 
 while source_array.length > counter do 
