@@ -22,13 +22,11 @@ source_array.map { |i| i**2 }
 end 
 
 
-def reduce_to_total(source_array, starting_point*)
+def reduce_to_total(source_array, starting_point=0)
 counter = 0 
 final_number = 0
 
-if starting_point
-  final_number = starting_point
-  end 
+
 while source_array.length > counter do 
     final_number += source_array[counter] 
 counter += 1
