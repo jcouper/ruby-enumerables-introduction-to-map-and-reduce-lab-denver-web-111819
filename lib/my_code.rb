@@ -22,7 +22,7 @@ source_array.map { |i| i**2 }
 end 
 
 
-def reduce_to_total(source_array, starting_point)
+def reduce_to_total(source_array, starting_point*)
 counter = 0 
 final_number = 0
 
